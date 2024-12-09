@@ -3,7 +3,7 @@
       "apps": [],
       "details": [{
           "appID": "1671567244.com.builtbydetermination",
-          "paths": ["*"]
+          "paths": ["*", "/"]
       }]
     }
   }
