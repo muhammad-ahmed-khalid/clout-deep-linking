@@ -1,9 +1,13 @@
-{
+  {
     "applinks": {
       "apps": [],
-      "details": [{
+      "details": [
+        {
           "appID": "C44T7GA6Q3.com.app.clout",
-          "paths": ["*", "/"]
-      }]
+          "paths": [
+            "*"
+          ]
+        }
+      ]
     }
   }
