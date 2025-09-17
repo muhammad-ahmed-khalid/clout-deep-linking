@@ -38,8 +38,8 @@ app.use('/assetlinks.json', (req, res) => {
     readStream.pipe(res);
 })
 
-app.use('/.well-known/apple-app-site-association', (req, res) => {
-    const filePath = path.join(__dirname, '/.well-known/apple-app-site-association.json');
+app.use('/.well-known/apple-app-site-association.json', (req, res) => {
+    const filePath = path.join(__dirname, '/.well-known/apple-app-site-association');
     const fileStats = fs.statSync(filePath);
     res.writeHead(200, {
         'Content-Type': 'application/json',
